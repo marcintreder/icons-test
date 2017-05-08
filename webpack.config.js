@@ -12,8 +12,9 @@ const config = {
     filename: 'bundle.js',
     publicPath: 'build/'
   },
-  resolveLoader: {
-  root: path.join(__dirname, 'node_modules')
+  resolve: {
+    modules: [__dirname, 'node_modules'],
+    extensions: ['*','.js','.jsx']
   },
   devServer: {
 		historyApiFallback: true
