@@ -9,5 +9,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, './build/index.html'))
 });
 
-app.listen(port);
-console.log('server started');
+app.listen(port, function() {
+    console.log("App is running on port " + port);
+});
