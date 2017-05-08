@@ -31,7 +31,7 @@ const config = {
        loader: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader!sass-loader' })
      },
      {
-       test: /\.(jpe?g|png|gif)$/,
+       test: /\.(jpe?g|png|gif|svg)$/,
        loader: 'url-loader'
      },
      /*{
