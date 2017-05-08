@@ -4,7 +4,7 @@ const Icons = [
   'b-icon-remove-from-group',
   'b-icon-comments',
   'b-icon-design-critique',
-  'b-icon-plus-square',
+  /*'b-icon-plus-square',
   'b-icon-unarchive',
   'b-icon-dots',
   'b-icon-change-project-group-3',
@@ -45,7 +45,7 @@ const Icons = [
   'b-icon-search',
   'b-icon-settings',
   'b-icon-question-mark',
-  'b-icon-add-member'
+  'b-icon-add-member'*/
 ];
 
 
