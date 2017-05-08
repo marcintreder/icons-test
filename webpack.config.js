@@ -31,13 +31,13 @@ const config = {
        loader: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader!sass-loader' })
      },
      {
-       test: /\.(jpe?g|png|gif|svg)$/,
+       test: /\.(jpe?g|png|gif)$/,
        loader: 'url-loader'
      },
-     /*{
+     {
        test: /\.svg$/,
        loader: 'svg-inline-loader',
-    },*/
+    },
     {
       test: /\.(eot|ttf|woff|woff2)$/,
       loader: 'url-loader'

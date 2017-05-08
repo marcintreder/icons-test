@@ -5,8 +5,8 @@ import React, { Component } from 'react';
 //import Svg from './IconsComponents/svg.js' // svg loaded as individual files
 //import SvgInline from './IconsComponents/svg-inline.js' // svg loaded as individual files
 //import SvgIconsComponent from './IconsComponents/svg-icon-component.js'
-//import PngSprite from './IconsComponents/png-sprite.js'
-import SvgSprite from './IconsComponents/svg-sprite.js'
+import PngSprite from './IconsComponents/png-sprite.js'
+//import SvgSprite from './IconsComponents/svg-sprite.js'
 //import IconFont from './IconsComponents/icon-font.js'
 
 
