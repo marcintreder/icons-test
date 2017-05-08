@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "NODE_ENV=development webpack-dev-server --open --no-info --history-api-fallback"
+    "serve": "NODE_ENV=development webpack-dev-server --open --no-info --history-api-fallback",
+    "start": "node server.js",
+    "postinstall": "webpack -p"
   },
   "author": "",
   "license": "ISC",

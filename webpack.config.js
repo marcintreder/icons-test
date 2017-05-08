@@ -10,7 +10,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
-    publicPath: '/'
+    publicPath: 'build/'
   },
   devServer: {
 		historyApiFallback: true
@@ -20,25 +20,19 @@ const config = {
       {
         use: 'babel-loader',
         test: /\.js$/,
-        exclude: /node_modules/
+        exclude: /node_modules/,
       },
       {
        test: /\.scss$/,
        loader: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader!sass-loader' })
      },
      {
-       test: /\.(jpe?g|png|gif|svg)$/,
+       test: /\.(jpe?g|png|gif)$/,
        loader: 'url-loader'
      },
      {
        test: /\.svg$/,
        loader: 'svg-inline-loader',
-       options: {
-         removeSVGTagAttrs: true,
-         removingTags: [
-          'svg'
-        ],
-      },
     },
     {
       test: /\.(eot|ttf|woff|woff2)$/,
