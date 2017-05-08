@@ -34,10 +34,10 @@ const config = {
        test: /\.(jpe?g|png|gif)$/,
        loader: 'url-loader'
      },
-     {
+     /*{
        test: /\.svg$/,
        loader: 'svg-inline-loader',
-    },
+    },*/
     {
       test: /\.(eot|ttf|woff|woff2)$/,
       loader: 'url-loader'
