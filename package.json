@@ -1,7 +1,11 @@
 {
   "name": "icon_test",
   "version": "1.0.0",
-  "description": "",
+  "description": "test for icons",
+  "engines": {
+    "node": "7.2.0",
+    "npm": "3.10.9"
+  },
   "main": "index.js",
   "scripts": {
     "serve": "NODE_ENV=development webpack-dev-server --open --no-info --history-api-fallback",
@@ -26,6 +30,7 @@
     "babel-preset-react-hmre": "^1.1.1",
     "css-loader": "^0.27.3",
     "extract-text-webpack-plugin": "^2.1.0",
+    "extract-text-webpack-plugin-webpack-2": "^1.0.1",
     "file-loader": "^0.11.1",
     "html-webpack-plugin": "^2.28.0",
     "image-webpack-loader": "^3.3.0",
