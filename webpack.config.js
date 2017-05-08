@@ -10,7 +10,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
-    publicPath: 'build/'
+    publicPath: '/build'
   },
   resolve: {
     modules: [__dirname, 'node_modules'],
@@ -31,13 +31,13 @@ const config = {
        loader: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader!sass-loader' })
      },
      {
-       test: /\.(jpe?g|png|gif)$/,
+       test: /\.(jpe?g|png|gif|svg)$/,
        loader: 'url-loader'
      },
-     {
+     /*{
        test: /\.svg$/,
        loader: 'svg-inline-loader',
-    },
+    },*/
     {
       test: /\.(eot|ttf|woff|woff2)$/,
       loader: 'url-loader'
