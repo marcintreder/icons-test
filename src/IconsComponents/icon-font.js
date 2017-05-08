@@ -52,7 +52,6 @@ const Icons = [
 export default class IconFont extends Component {
 
   render() {
-    console.log('hello')
     return(
       <ul className='b-icons-list'>
      {Icons.map((item) => {

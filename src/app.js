@@ -4,10 +4,10 @@ import React, { Component } from 'react';
 //import SvgBase from './IconsComponents/svg-base.js' // svg loaded through base64 links
 //import Svg from './IconsComponents/svg.js' // svg loaded as individual files
 // import SvgInline from './IconsComponents/svg-inline.js' // svg loaded as individual files
-import SvgIconsComponent from './IconsComponents/svg-icon-component.js'
+// import SvgIconsComponent from './IconsComponents/svg-icon-component.js'
 //import PngSprite from './IconsComponents/png-sprite.js'
 //import SvgSprite from './IconsComponents/svg-sprite.js'
-//import IconFont from './IconsComponents/icon-font.js'
+import IconFont from './IconsComponents/icon-font.js'
 
 
 export default class App extends Component {
@@ -16,7 +16,7 @@ export default class App extends Component {
 
     return(
       <div className='b-wrapper'>
-        <SvgIconsComponent />
+        <IconFont />
       </div>
     )
   }
