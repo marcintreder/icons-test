@@ -8,8 +8,9 @@
   },
   "main": "index.js",
   "scripts": {
+    "clean": "rimraf build",
     "serve": "NODE_ENV=development webpack-dev-server --open --no-info --history-api-fallback",
-    "start": "node server.js",
+    "start": "NODE_ENV=production node server.js",
     "postinstall": "webpack -p"
   },
   "author": "",
