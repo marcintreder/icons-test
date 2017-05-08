@@ -16,7 +16,7 @@ export default class App extends Component {
 
     return(
       <div className='b-wrapper'>
-        <IconFont />
+        <SvgSprite />
       </div>
     )
   }
