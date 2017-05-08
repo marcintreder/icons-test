@@ -22,8 +22,8 @@ const config = {
   module: {
     rules: [
       {
-        use: 'babel-loader',
         test: /\.js$/,
+        loader: 'babel-loader',
         exclude: /node_modules/,
       },
       {
