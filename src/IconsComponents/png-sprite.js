@@ -4,7 +4,7 @@ const Icons = [
   'b-icon-remove-from-group__sprite',
   'b-icon-comments__sprite',
   'b-icon-design-critique__sprite',
-  /*'b-icon-plus-square__sprite',
+  'b-icon-plus-square__sprite',
   'b-icon-unarchive__sprite',
   'b-icon-dots__sprite',
   'b-icon-change-project-group-3__sprite',
@@ -45,13 +45,14 @@ const Icons = [
   'b-icon-search__sprite',
   'b-icon-settings__sprite',
   'b-icon-question-mark__sprite',
-  'b-icon-add-member__sprite'*/
+  'b-icon-add-member__sprite'
 ];
 
 
 export default class pngSprite extends Component {
 
   render() {
+    console.log('hello')
     return(
       <ul className='b-icons-list'>
      {Icons.map((item) => {
