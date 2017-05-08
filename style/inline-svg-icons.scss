@@ -24,7 +24,7 @@
 $icon-add-member: svg-cleaner($icon-add-member-string);
 $icon-add-sth-sb: svg-cleaner($icon-add-sth-sb-string);
 $icon-add-note: svg-cleaner($icon-add-note-string);
-/*$icon-approval-2: svg-cleaner($icon-approval-2-string);
+$icon-approval-2: svg-cleaner($icon-approval-2-string);
 $icon-approval: svg-cleaner($icon-approval-string);
 $icon-archive-2: svg-cleaner($icon-archive-2-string);
 $icon-archive: svg-cleaner($icon-archive-string);
@@ -65,7 +65,7 @@ $icon-team-settings-2: svg-cleaner($icon-team-settings-2-string);
 $icon-team-settings: svg-cleaner($icon-team-settings-string);
 $icon-unarchive: svg-cleaner($icon-unarchive-string);
 $icon-video-tutorials: svg-cleaner($icon-video-tutorials-string);
-$icon-wireframe: svg-cleaner($icon-wireframe-string);*/
+$icon-wireframe: svg-cleaner($icon-wireframe-string);
 
 .b-icon__add-member {
   @include icon($icon-add-member, 20px, center);
@@ -78,7 +78,7 @@ $icon-wireframe: svg-cleaner($icon-wireframe-string);*/
 .b-icon__sth-sb {
   @include icon($icon-add-sth-sb, 20px, center);
 }
-/*
+
 .b-icon__approval_2 {
   @include icon($icon-approval-2, 20px, center);
 }
@@ -245,4 +245,4 @@ $icon-wireframe: svg-cleaner($icon-wireframe-string);*/
 
 .b-icon__wireframe {
   @include icon($icon-wireframe, 20px, center);
-}*/
+}
