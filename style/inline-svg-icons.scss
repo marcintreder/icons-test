@@ -1,0 +1,248 @@
+@import 'inline-svg-strings';
+
+@function str-replace($string, $search, $replace: '') {
+  $index: str-index($string, $search);
+
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+  }
+
+  @return $string;
+}
+
+@function svg-cleaner($string) {
+  $result: str-replace($string, '"', '\\\'');
+  $result: str-replace($result, '\\r', '');
+  $result: str-replace($result, '\\n', '');
+  $result: str-replace($result, '\\t', '');
+  $result: str-replace($result, '\\v', '');
+  $result: str-replace($result, '\\f', '');
+  $result: str-replace($result, '\\b', '');
+  @return  "data:image/svg+xml;utf8," + $result;
+}
+
+$icon-add-member: svg-cleaner($icon-add-member-string);
+$icon-add-sth-sb: svg-cleaner($icon-add-sth-sb-string);
+$icon-add-note: svg-cleaner($icon-add-note-string);
+$icon-approval-2: svg-cleaner($icon-approval-2-string);
+$icon-approval: svg-cleaner($icon-approval-string);
+$icon-archive-2: svg-cleaner($icon-archive-2-string);
+$icon-archive: svg-cleaner($icon-archive-string);
+$icon-arrow-down: svg-cleaner($icon-arrow-down-string);
+$icon-automation: svg-cleaner($icon-automation-string);
+$icon-back-to-video-tutorials: svg-cleaner($icon-back-to-video-tutorials-string);
+$icon-calendar: svg-cleaner($icon-calendar-string);
+$icon-change-project-group-2: svg-cleaner($icon-change-project-group-2-string);
+$icon-change-project-group-3: svg-cleaner($icon-change-project-group-3-string);
+$icon-change-project-group: svg-cleaner($icon-change-project-group-string);
+$icon-comments: svg-cleaner($icon-comments-string);
+$icon-create-project: svg-cleaner($icon-comments-string);
+$icon-design-critique: svg-cleaner($icon-design-critique-string);
+$icon-dots: svg-cleaner($icon-dots-string);
+$icon-duplicate-string: svg-cleaner($icon-duplicate-string);
+$icon-edit: svg-cleaner($icon-edit-string);
+$icon-email-2: svg-cleaner($icon-email-2-string);
+$icon-email-3: svg-cleaner($icon-email-3-string);
+$icon-email-for-approval: svg-cleaner($icon-email-for-approval-string);
+$icon-email-preview: svg-cleaner($icon-email-preview-string);
+$icon-email: svg-cleaner($icon-email-string);
+$icon-emoji: svg-cleaner($icon-emoji-string);
+$icon-folder-alt: svg-cleaner($icon-folder-alt-string);
+$icon-new-project: svg-cleaner($icon-new-project-string);
+$icon-play: svg-cleaner($icon-play-string);
+$icon-plus-square: svg-cleaner($icon-plus-square-string);
+$icon-question-mark: svg-cleaner($icon-question-mark-string);
+$icon-remove-from-group: svg-cleaner($icon-remove-from-group-string);
+$icon-save-as-email-template-2: svg-cleaner($icon-save-as-email-template-2-string);
+$icon-save-as-email-template: svg-cleaner($icon-save-as-email-template-string);
+$icon-schedule-auto-reminder: svg-cleaner($icon-schedule-auto-reminder-string);
+$icon-search: svg-cleaner($icon-search-string);
+$icon-settings: svg-cleaner($icon-settings-string);
+$icon-share-projects: svg-cleaner($icon-share-projects-string);
+$icon-share: svg-cleaner($icon-share-string);
+$icon-status-progress: svg-cleaner($icon-status-progress-string);
+$icon-team-settings-2: svg-cleaner($icon-team-settings-2-string);
+$icon-team-settings: svg-cleaner($icon-team-settings-string);
+$icon-unarchive: svg-cleaner($icon-unarchive-string);
+$icon-video-tutorials: svg-cleaner($icon-video-tutorials-string);
+$icon-wireframe: svg-cleaner($icon-wireframe-string);
+
+.b-icon__add-member {
+  @include icon($icon-add-member, 20px, center);
+}
+
+.b-icon__add-note {
+  @include icon($icon-add-note, 20px, center);
+}
+
+.b-icon__sth-sb {
+  @include icon($icon-add-sth-sb, 20px, center);
+}
+
+.b-icon__approval_2 {
+  @include icon($icon-approval-2, 20px, center);
+}
+
+.b-icon__approval {
+  @include icon($icon-approval, 20px, center);
+}
+
+.b-icon__archive_2 {
+  @include icon($icon-archive-2, 20px, center);
+}
+
+.b-icon__archive {
+  @include icon($icon-archive, 20px, center);
+}
+
+.b-icon__arrow-down {
+  @include icon($icon-arrow-down, 20px, center);
+}
+
+.b-icon__automation {
+  @include icon($icon-automation, 20px, center);
+}
+
+.b-icon__back-to-video-tutorials {
+  @include icon($icon-back-to-video-tutorials, 20px, center);
+}
+
+.b-icon__calendar {
+  @include icon($icon-calendar, 20px, center);
+}
+
+.b-icon__change-project-group_2 {
+  @include icon($icon-change-project-group-2, 20px, center);
+}
+
+.b-icon__change-project-group_3 {
+  @include icon($icon-change-project-group-3, 20px, center);
+}
+
+.b-icon__change-project-group {
+  @include icon($icon-change-project-group, 20px, center);
+}
+
+.b-icon__comments {
+  @include icon($icon-comments, 20px, center);
+}
+
+.b-icon__create-project {
+  @include icon($icon-create-project, 20px, center);
+}
+
+.b-icon__design-critique {
+  @include icon($icon-design-critique, 20px, center);
+}
+
+.b-icon__dots {
+  @include icon($icon-dots, 20px, center);
+}
+
+.b-icon__duplicate-string {
+  @include icon($icon-duplicate-string, 20px, center);
+}
+
+.b-icon__edit {
+  @include icon($icon-edit, 20px, center);
+}
+
+.b-icon__email_2 {
+  @include icon($icon-email-2, 20px, center);
+}
+
+.b-icon__email_3 {
+  @include icon($icon-email-3, 20px, center);
+}
+
+.b-icon__email-for-approval {
+  @include icon($icon-email-for-approval, 20px, center);
+}
+
+.b-icon__email-preview {
+  @include icon($icon-email-preview, 20px, center);
+}
+
+.b-icon__email {
+  @include icon($icon-email, 20px, center);
+}
+
+.b-icon__emoji {
+  @include icon($icon-emoji, 20px, center);
+}
+
+.b-icon__folder_alt {
+  @include icon($icon-folder-alt, 20px, center);
+}
+
+.b-icon__new-project {
+  @include icon($icon-new-project, 20px, center);
+}
+
+.b-icon__play {
+  @include icon($icon-play, 20px, center);
+}
+
+.b-icon__plus-square {
+  @include icon($icon-plus-square, 20px, center);
+}
+
+.b-icon__question-mark {
+  @include icon($icon-question-mark, 20px, center);
+}
+
+.b-icon__remove-from-group {
+  @include icon($icon-remove-from-group, 20px, center);
+}
+
+.b-icon__save-as-email-template_2 {
+  @include icon($icon-save-as-email-template-2, 20px, center);
+}
+
+.b-icon__save-as-email-template {
+  @include icon($icon-save-as-email-template, 20px, center);
+}
+
+.b-icon__schedule-auto-reminder {
+  @include icon($icon-schedule-auto-reminder, 20px, center);
+}
+
+.b-icon__search {
+  @include icon($icon-search, 20px, center);
+}
+
+.b-icon__settings {
+  @include icon($icon-settings, 20px, center);
+}
+
+.b-icon__share-projects {
+  @include icon($icon-settings, 20px, center);
+}
+
+.b-icon__share {
+  @include icon($icon-share, 20px, center);
+}
+
+.b-icon__status-progress {
+  @include icon($icon-status-progress, 20px, center);
+}
+
+.b-icon__team-settings_2 {
+  @include icon($icon-team-settings-2, 20px, center);
+}
+
+.b-icon__team-settings {
+  @include icon($icon-team-settings, 20px, center);
+}
+
+.b-icon__unarchive {
+  @include icon($icon-unarchive, 20px, center);
+}
+
+.b-icon__video-tutorials {
+  @include icon($icon-video-tutorials, 20px, center);
+}
+
+.b-icon__wireframe {
+  @include icon($icon-wireframe, 20px, center);
+}

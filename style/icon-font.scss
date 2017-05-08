@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../assets/icons/fonts/icomoon.eot');
+  src:  url('../assets/icons/fonts/icomoon.eot') format('embedded-opentype'),
+    url('../assets/icons/fonts/icomoon.ttf') format('truetype'),
+    url('../assets/icons/fonts/icomoon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-font {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.b-icon-remove-from-group:before {
+  content: "\e900";
+}
+.b-icon-comments:before {
+  content: "\e901";
+}
+.b-icon-design-critique:before {
+  content: "\e902";
+}
+.b-icon-plus-square:before {
+  content: "\e903";
+}
+.b-icon-unarchive:before {
+  content: "\e904";
+}
+.b-icon-dots:before {
+  content: "\e905";
+}
+.b-icon-change-project-group-3:before {
+  content: "\e906";
+}
+.b-icon-duplicate:before {
+  content: "\e907";
+}
+.b-icon-archive-2:before {
+  content: "\e908";
+}
+.b-icon-folder-alt:before {
+  content: "\e909";
+}
+.b-icon-add-note:before {
+  content: "\e90a";
+}
+.b-icon-email-3:before {
+  content: "\e90b";
+}
+.b-icon-email-preview:before {
+  content: "\e90c";
+}
+.b-icon-email-2:before {
+  content: "\e90d";
+}
+.b-icon-email:before {
+  content: "\e90e";
+}
+.b-icon-email-for-approval:before {
+  content: "\e90f";
+}
+.b-icon-approval-2:before {
+  content: "\e910";
+}
+.b-icon-approval:before {
+  content: "\e911";
+}
+.b-icon-add-sth-sb:before {
+  content: "\e912";
+}
+.b-icon-automation:before {
+  content: "\e913";
+}
+.b-icon-calendar:before {
+  content: "\e914";
+}
+.b-icon-team-settings-2:before {
+  content: "\e915";
+}
+.b-icon-team-settings:before {
+  content: "\e916";
+}
+.b-icon-save-as-email-template-2:before {
+  content: "\e917";
+}
+.b-icon-save-as-email-template:before {
+  content: "\e918";
+}
+.b-icon-back-to-video-tutorials:before {
+  content: "\e919";
+}
+.b-icon-video-tutorials:before {
+  content: "\e91a";
+}
+.b-icon-emoji:before {
+  content: "\e91b";
+}
+.b-icon-schedule-auto-reminder:before {
+  content: "\e91c";
+}
+.b-icon-change-project-group-2:before {
+  content: "\e91d";
+}
+.b-icon-change-project-group:before {
+  content: "\e91e";
+}
+.b-icon-wireframe:before {
+  content: "\e91f";
+}
+.b-icon-new-project:before {
+  content: "\e920";
+}
+.b-icon-create-project:before {
+  content: "\e921";
+}
+.b-icon-archive:before {
+  content: "\e922";
+}
+.b-icon-share:before {
+  content: "\e923";
+}
+.b-icon-play:before {
+  content: "\e924";
+}
+.b-icon-edit:before {
+  content: "\e925";
+}
+.b-icon-share-projects:before {
+  content: "\e926";
+}
+.b-icon-arrow-down:before {
+  content: "\e927";
+}
+.b-icon-status-progress:before {
+  content: "\e928";
+}
+.b-icon-search:before {
+  content: "\e929";
+}
+.b-icon-settings:before {
+  content: "\e92a";
+}
+.b-icon-question-mark:before {
+  content: "\e92b";
+}
+.b-icon-add-member:before {
+  content: "\e92c";
+}

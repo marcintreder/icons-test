@@ -1,0 +1,231 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-icon-remove-from-group {
+  width: 20px;
+  height: 20px;
+  background-position: 0 0;
+}
+.icon-icon-comments {
+  width: 23px;
+  height: 20px;
+  background-position: -36px 0;
+}
+.icon-icon-design-critique {
+  width: 20px;
+  height: 20px;
+  background-position: -72px 0;
+}
+.icon-icon-plus-square {
+  width: 20px;
+  height: 20px;
+  background-position: -108px 0;
+}
+.icon-icon-unarchive {
+  width: 20px;
+  height: 20px;
+  background-position: -144px 0;
+}
+.icon-icon-dots {
+  width: 93px;
+  height: 20px;
+  background-position: -180px 0;
+}
+.icon-icon-change-project-group-3 {
+  width: 22px;
+  height: 20px;
+  background-position: -288px 0;
+}
+.icon-icon-duplicate {
+  width: 19px;
+  height: 20px;
+  background-position: -324px 0;
+}
+.icon-icon-archive-2 {
+  width: 13px;
+  height: 20px;
+  background-position: -360px 0;
+}
+.icon-icon-folder-alt {
+  width: 20px;
+  height: 20px;
+  background-position: -396px 0;
+}
+.icon-icon-add-note {
+  width: 20px;
+  height: 20px;
+  background-position: -432px 0;
+}
+.icon-icon-email-3 {
+  width: 35px;
+  height: 20px;
+  background-position: -468px 0;
+}
+.icon-icon-email-preview {
+  width: 20px;
+  height: 20px;
+  background-position: 0 -36px;
+}
+.icon-icon-email-2 {
+  width: 20px;
+  height: 20px;
+  background-position: -36px -36px;
+}
+.icon-icon-email {
+  width: 20px;
+  height: 20px;
+  background-position: -72px -36px;
+}
+.icon-icon-email-for-approval {
+  width: 20px;
+  height: 20px;
+  background-position: -108px -36px;
+}
+.icon-icon-approval-2 {
+  width: 20px;
+  height: 20px;
+  background-position: -144px -36px;
+}
+.icon-icon-approval {
+  width: 35px;
+  height: 20px;
+  background-position: -180px -36px;
+}
+.icon-icon-add-sth-sb {
+  width: 20px;
+  height: 20px;
+  background-position: -252px -36px;
+}
+.icon-icon-automation {
+  width: 20px;
+  height: 20px;
+  background-position: -288px -36px;
+}
+.icon-icon-calendar {
+  width: 19px;
+  height: 20px;
+  background-position: -324px -36px;
+}
+.icon-icon-team-settings-2 {
+  width: 20px;
+  height: 20px;
+  background-position: -360px -36px;
+}
+.icon-icon-team-settings {
+  width: 20px;
+  height: 20px;
+  background-position: -396px -36px;
+}
+.icon-icon-save-as-email-template-2 {
+  width: 20px;
+  height: 20px;
+  background-position: -432px -36px;
+}
+.icon-icon-save-as-email-template {
+  width: 20px;
+  height: 20px;
+  background-position: -468px -36px;
+}
+.icon-icon-back-to-video-tutorials {
+  width: 20px;
+  height: 20px;
+  background-position: -504px -36px;
+}
+.icon-icon-video-tutorials {
+  width: 20px;
+  height: 20px;
+  background-position: -540px -36px;
+}
+.icon-icon-emoji {
+  width: 20px;
+  height: 20px;
+  background-position: 0 -72px;
+}
+.icon-icon-schedule-auto-reminder {
+  width: 20px;
+  height: 20px;
+  background-position: -36px -72px;
+}
+.icon-icon-change-project-group-2 {
+  width: 20px;
+  height: 20px;
+  background-position: -72px -72px;
+}
+.icon-icon-change-project-group {
+  width: 20px;
+  height: 20px;
+  background-position: -108px -72px;
+}
+.icon-icon-wireframe {
+  width: 20px;
+  height: 20px;
+  background-position: -144px -72px;
+}
+.icon-icon-new-project {
+  width: 20px;
+  height: 20px;
+  background-position: -180px -72px;
+}
+.icon-icon-create-project {
+  width: 20px;
+  height: 20px;
+  background-position: -216px -72px;
+}
+.icon-icon-archive {
+  width: 20px;
+  height: 20px;
+  background-position: -252px -72px;
+}
+.icon-icon-share {
+  width: 19px;
+  height: 20px;
+  background-position: -288px -72px;
+}
+.icon-icon-play {
+  width: 17px;
+  height: 20px;
+  background-position: -324px -72px;
+}
+.icon-icon-edit {
+  width: 20px;
+  height: 20px;
+  background-position: -360px -72px;
+}
+.icon-icon-share-projects {
+  width: 22px;
+  height: 20px;
+  background-position: -396px -72px;
+}
+.icon-icon-arrow-down {
+  width: 35px;
+  height: 20px;
+  background-position: -432px -72px;
+}
+.icon-icon-status-progress {
+  width: 20px;
+  height: 20px;
+  background-position: -504px -72px;
+}
+.icon-icon-search {
+  width: 20px;
+  height: 20px;
+  background-position: -540px -72px;
+}
+.icon-icon-settings {
+  width: 20px;
+  height: 20px;
+  background-position: 0 -108px;
+}
+.icon-icon-question-mark {
+  width: 12px;
+  height: 20px;
+  background-position: -36px -108px;
+}
+.icon-icon-add-member {
+  width: 16px;
+  height: 20px;
+  background-position: -72px -108px;
+}
+
