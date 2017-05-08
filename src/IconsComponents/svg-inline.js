@@ -4,7 +4,7 @@ const SVG_CLASSES = [
 'b-icon__add-member',
 'b-icon__add-note',
 'b-icon__sth-sb',
-'b-icon__approval_2',
+/*'b-icon__approval_2',
 'b-icon__approval',
 'b-icon__archive_2',
 'b-icon__archive',
@@ -45,7 +45,7 @@ const SVG_CLASSES = [
 'b-icon__team-settings',
 'b-icon__unarchive',
 'b-icon__video-tutorials',
-'b-icon__wireframe'
+'b-icon__wireframe'*/
 ];
 
 export default class SvgInline extends Component {
