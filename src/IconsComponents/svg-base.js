@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import IconAddMember from '../../assets/icons/SVG/icon-add-member.svg';
 import IconAddNote from '../../assets/icons/SVG/icon-add-note.svg';
 import IconAddSth from '../../assets/icons/SVG/icon-add-sth-sb.svg';
-import IconApproval2 from '../../assets/icons/SVG/icon-approval-2.svg';
+/*import IconApproval2 from '../../assets/icons/SVG/icon-approval-2.svg';
 import IconApproval from '../../assets/icons/SVG/icon-approval.svg';
 import IconArchive2 from '../../assets/icons/SVG/icon-archive-2.svg';
 import IconArchive from '../../assets/icons/SVG/icon-archive.svg';
@@ -44,13 +44,15 @@ import IconTeamSettings2 from '../../assets/icons/SVG/icon-team-settings-2.svg';
 import IconTeamSettings from '../../assets/icons/SVG/icon-team-settings.svg';
 import IconUnarchive from '../../assets/icons/SVG/icon-unarchive.svg';
 import IconVideoTutorials from '../../assets/icons/SVG/icon-video-tutorials.svg';
-import IconWireframe from '../../assets/icons/SVG/icon-wireframe.svg';
+import IconWireframe from '../../assets/icons/SVG/icon-wireframe.svg';*/
 
-const Icons = [IconAddMember, IconAddNote, IconAddSth, IconApproval2, IconApproval, IconArchive2, IconArchive, IconArrowDown, IconAutomation,
+const Icons = [IconAddMember, IconAddNote, IconAddSth];
+
+/*, IconApproval2, IconApproval, IconArchive2, IconArchive, IconArrowDown, IconAutomation,
   IconBackToVideo, IconCalendar, IconChangeProjectGroup2, IconChangeProjectGroup3, IconChangeProjectGroup, IconComments, IconCreateProject,
   IconDesignCritique, IconDots, IconDuplicate, IconEdit, IconEmail2, IconEmail3, IconEmailApproval, IconEmailPreview, IconEmail, IconEmoji, IconFolderAlt,
   IconNewProject, IconPlay, IconPlusSquare, IconQuestionMark, IconRemoveFromGroup, IconSaveAsEmailTemplate2, IconSaveAsEmailTemplate, IconScheduleAutoReminder,
-  IconSearch, IconSettings, IconShareProjects, IconShare, IconStatusProgress, IconTeamSettings2, IconTeamSettings, IconUnarchive, IconVideoTutorials, IconWireframe];
+  IconSearch, IconSettings, IconShareProjects, IconShare, IconStatusProgress, IconTeamSettings2, IconTeamSettings, IconUnarchive, IconVideoTutorials, IconWireframe];*/
 
 
 export default class svgBase extends Component {
