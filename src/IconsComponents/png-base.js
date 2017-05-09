@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 const Icons = ['b-icon-add-member__base',
 'b-icon-add-note__base',
 'b-icon-add-sth__base',
-/*'b-icon-approval-2__base',
+'b-icon-approval-2__base',
 'b-icon-approval__base',
 'b-icon-archive-2__base',
 'b-icon-archive__base',
@@ -44,7 +44,7 @@ const Icons = ['b-icon-add-member__base',
 'b-icon-team-settings__base',
 'b-icon-unarchive__base',
 'b-icon-video-tutorials__base',
-'b-icon-wireframe__base'*/
+'b-icon-wireframe__base'
 ]
 
 export default class PngBase extends Component {

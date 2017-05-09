@@ -10,7 +10,7 @@
   @include icon-base-png($icon-add-sth__png, center);
 }
 
-/*.b-icon-approval-2__base {
+.b-icon-approval-2__base {
   @include icon-base-png($icon-approval-2__png, center);
 }
 
@@ -176,4 +176,4 @@
 
 .b-icon-wireframe__base {
   @include icon-base-png($icon-wireframe__png, center);
-}*/
+}
