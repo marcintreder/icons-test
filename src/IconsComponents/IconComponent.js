@@ -16,8 +16,6 @@ export default class Icon extends Component {
         fill = { this.props.color }
         viewBox = { viewBox ? viewBox : '' }
 
-        className='b-icon-react'
-
         dangerouslySetInnerHTML={{__html: `${svg}` }}
         />
     )
