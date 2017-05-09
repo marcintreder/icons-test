@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import IconAddMember from '../../assets/icons/PNG/icon-add-member.png';
 import IconAddNote from '../../assets/icons/PNG/icon-add-note.png';
 import IconAddSth from '../../assets/icons/PNG/icon-add-sth-sb.png';
-/*import IconApproval2 from '../../assets/icons/PNG/icon-approval-2.png';
+import IconApproval2 from '../../assets/icons/PNG/icon-approval-2.png';
 import IconApproval from '../../assets/icons/PNG/icon-approval.png';
 import IconArchive2 from '../../assets/icons/PNG/icon-archive-2.png';
 import IconArchive from '../../assets/icons/PNG/icon-archive.png';
@@ -44,12 +44,12 @@ import IconTeamSettings2 from '../../assets/icons/PNG/icon-team-settings-2.png';
 import IconTeamSettings from '../../assets/icons/PNG/icon-team-settings.png';
 import IconUnarchive from '../../assets/icons/PNG/icon-unarchive.png';
 import IconVideoTutorials from '../../assets/icons/PNG/icon-video-tutorials.png';
-import IconWireframe from '../../assets/icons/PNG/icon-wireframe.png';*/
+import IconWireframe from '../../assets/icons/PNG/icon-wireframe.png';
 
 const Icons = ['../../assets/icons/PNG/icon-add-member.png',
 '../../assets/icons/PNG/icon-add-note.png',
 '../../assets/icons/PNG/icon-add-sth-sb.png',
-/*'../../assets/icons/PNG/icon-approval-2.png',
+'../../assets/icons/PNG/icon-approval-2.png',
 '../../assets/icons/PNG/icon-approval.png',
 '../../assets/icons/PNG/icon-archive-2.png',
 '../../assets/icons/PNG/icon-archive.png',
@@ -90,7 +90,7 @@ const Icons = ['../../assets/icons/PNG/icon-add-member.png',
 '../../assets/icons/PNG/icon-team-settings.png',
 '../../assets/icons/PNG/icon-unarchive.png',
 '../../assets/icons/PNG/icon-video-tutorials.png',
-'../../assets/icons/PNG/icon-wireframe.png'*/
+'../../assets/icons/PNG/icon-wireframe.png'
 ];
 
 
