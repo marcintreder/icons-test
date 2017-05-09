@@ -66,7 +66,7 @@ export default class SvgIconsComponent extends Component {
      {Icons.map((item, i) => {
        return(
          <li key={i}>
-          <Icon svg={item} width="30" height="30" color='#555' className='b-icon-react'/>
+          <Icon svg={item} width="30" height="30" color='#555'/>
          </li>
        )
       })}
